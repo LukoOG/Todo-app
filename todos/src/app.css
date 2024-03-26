@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .container{
+        @apply relative my-0 mx-auto 
+    }
+
+    .task-container{
+        @apply max-w-[600px] mx-auto my-0 shadow-lg bg-white justify-around items-center
+    }
+
+    .form-wrapper{
+        @apply sticky top-0 border-b-violet-300 bg-white shadow-md p-4
+    }
+
+    .form-control{
+        @apply w-[400px] p-2 border-blue-200 border-[1px]
+    }
+
+    .btn{
+        @apply bg-blue-500 text-white rounded-md p-2
+    }
+
+    .task-wrapper{
+        @apply p-2 my-5 border-b bg-white
+    }
+}

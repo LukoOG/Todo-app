@@ -1,0 +1,5 @@
+this is interesting. Despite the API. We work with the data on the frontend.
+The API is just us telling Django to update the records. It's interesting.
+
+Deleting an item doesnt mean that the item is deleted from the db immediately......yet. It's just cool
+applying this principle in other frontend and backend projects would be nice
